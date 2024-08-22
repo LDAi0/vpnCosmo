@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/main-menu.png</file>
+        <file>fonts/TitilliumWeb-Regular.ttf</file>
+        <file>fonts/TitilliumWeb-Italic.ttf</file>
+        <file>fonts/TitilliumWeb-Light.ttf</file>
+        <file>fonts/TitilliumWeb-Black.ttf</file>
+    </qresource>
+</RCC>
