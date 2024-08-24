@@ -8,6 +8,7 @@ class stylehelper
 public:
     static QString getConnectBtnStyle();
     static QString getWindowStyle();
+    static QString getSignInStyle();
 };
 
 #endif // STYLEHELPER_H

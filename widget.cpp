@@ -32,4 +32,5 @@ void Widget::setInterfaceStyle()
 {
     ui->pushButton->setStyleSheet(stylehelper::getConnectBtnStyle());
     this->setStyleSheet(stylehelper::getWindowStyle());
+    ui->pushButton_2->setStyleSheet(stylehelper::getSignInStyle());
 }

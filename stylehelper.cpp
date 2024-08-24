@@ -19,9 +19,33 @@ QString stylehelper::getConnectBtnStyle()
            "}";
 }
 
+
+
 QString stylehelper::getWindowStyle()
 {
     return "QWidget{"
             "background-color: rgb(22,22,22);"
            "}";
+}
+
+QString stylehelper::getSignInStyle()
+{
+    return "QPushButton{"
+"           background-color: rgb(22,22,22)!important; "
+           "border-width: 2px !important;"
+"color: rgb(14, 204, 0);"
+    "border-radius: 15px !important;"
+    "border-color: rgb(14, 204, 0) !important;"
+    "border-style: solid !important;"
+    "font-size: 12pt;"
+    "font-family: 'Titillium Web'"
+"}"
+"QPushButton::hover{"
+    "background-color: rgb(14, 204, 0);"
+"color: rgb(22, 22, 22);"
+"}"
+"QPushButton::pressed{"
+    "border-color:rgb(11, 127, 0);"
+    "background-color: rgb(11, 127, 0);"
+"}";
 }
