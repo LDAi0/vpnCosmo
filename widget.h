@@ -2,6 +2,10 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include <QPushButton>
+#include <QLineEdit>
+#include <QGraphicsBlurEffect>
+#include <QGraphicsOpacityEffect>
 #include <QPainter>
 
 QT_BEGIN_NAMESPACE
@@ -17,6 +21,9 @@ class Widget : public QWidget
 public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
+
+private slots:
+    void showLoginForm();
 
 protected:
     void paintEvent(QPaintEvent *event);
