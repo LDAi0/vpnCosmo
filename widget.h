@@ -30,6 +30,7 @@ protected:
 
 private:
     Ui::Widget *ui;
+    QWidget *blurOverlay;
     void setInterfaceStyle();
 };
 

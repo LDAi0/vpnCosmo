@@ -76,6 +76,7 @@
  </widget>
  <resources>
   <include location="resourses/resourses.qrc"/>
+  <include location="resourses/resourses.qrc"/>
  </resources>
  <connections/>
 </ui>

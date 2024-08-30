@@ -5,5 +5,8 @@
         <file>fonts/TitilliumWeb-Italic.ttf</file>
         <file>fonts/TitilliumWeb-Light.ttf</file>
         <file>fonts/TitilliumWeb-Black.ttf</file>
+        <file>resourses.qrc</file>
+        <file>images/closePNG.png</file>
+        <file>images/sputnik-satellite.png</file>
     </qresource>
 </RCC>
