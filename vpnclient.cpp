@@ -1,5 +1,3 @@
 #include "vpnclient.h"
 
-VpnClient::VpnClient() {
-
-}
+VpnClient::VpnClient() {}

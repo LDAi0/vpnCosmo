@@ -1,12 +1,12 @@
 #ifndef WIDGET_H
 #define WIDGET_H
 
-#include <QWidget>
-#include <QPushButton>
-#include <QLineEdit>
 #include <QGraphicsBlurEffect>
 #include <QGraphicsOpacityEffect>
+#include <QLineEdit>
 #include <QPainter>
+#include <QPushButton>
+#include <QWidget>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -33,8 +33,5 @@ private:
     QWidget *blurOverlay;
     void setInterfaceStyle();
 };
-
-
-
 
 #endif // WIDGET_H
